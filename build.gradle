@@ -24,7 +24,7 @@ publishing {
     }
 }
 
-def runeLiteVersion = getRuneLiteVersion()
+def runeLiteVersion = "1.9.15"
 
 static def getRuneLiteVersion() {
     URL url = new URL("http://repo.runelite.net/net/runelite/client/")
